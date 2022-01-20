@@ -1,0 +1,171 @@
+.gallery img{
+    width: 100%;
+}
+
+table{
+    font-family: helvetica,sans-serif;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: mediumblue;
+    background-color: plum;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/space.png);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: snow;
+}
+
+p{
+    line-height: 190%;
+}
+
+a{
+    text-decoration: none;
+    color: teal;
+}
+p{
+     display: block;
+     margin-block-start: 1em;
+     margin-block-end: 1em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+}
+
+/* *************************************************************************************************************** */
+/* Header                                                                                                          */
+/* *************************************************************************************************************** */
+
+#header{
+    padding: 60px 0px 40px 0px;
+    background-color: coral;
+    text-align: center;
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+#header p{
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+/* *************************************************************************************************************** */
+/* Copyright                                                                                                       */
+/* *************************************************************************************************************** */
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: #16a085;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* *************************************************************************************************************** */
+/* Gallery                                                                                                         */
+/* *************************************************************************************************************** */
+
+#gallery img{
+    width: 140px;
+    margin: 14px;
+}
+
+#gallery img{
+    width: 120px;
+    margin: 12px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#gallery img:hover{
+    -moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+}
+    
+/* *************************************************************************************************************** */
+/* Menu                                                                                                            */
+/* *************************************************************************************************************** */
+
+#menu{
+    background-color: #16a085;
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: #ffffff;
+
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #1abc9c;
+}
+
+#page h2 {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #16a085;
+}
+
+/* *************************************************************************************************************** */
+/* Car List                                                                                                        */
+/* *************************************************************************************************************** */
+
+ul.styled2 li{
+    border-top: solid 0.1px blue;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul.styled2{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+user agent stylesheet
+ul{
+    list-style-type: disc;
+}
